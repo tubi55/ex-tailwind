@@ -12,7 +12,7 @@ function App() {
 
   return (
     <main>
-      <h1 className="w-full mb-20 text-6xl font-thin text-center">Members</h1>
+      <h1 className="title_page">Members</h1>
 
       <section>
         {memberInfo.map((data, idx) => (
