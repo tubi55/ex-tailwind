@@ -1,8 +1,8 @@
-function Info() {
+function Info({ name, position }) {
   return (
     <div className="relative">
-      <h2 className="text-xl font-semibold">Peter Choi</h2>
-      <p className="text-base mb-7">President</p>
+      <h2 className="text-xl font-semibold">{name}</h2>
+      <p className="text-base mb-7">{position}</p>
     </div>
   );
 }
