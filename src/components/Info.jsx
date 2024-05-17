@@ -1,8 +1,8 @@
 function Info() {
   return (
-    <div>
-      <h2>Peter Choi</h2>
-      <p>President</p>
+    <div className="relative">
+      <h2 className="text-xl font-semibold">Peter Choi</h2>
+      <p className="text-base mb-7">President</p>
     </div>
   );
 }
