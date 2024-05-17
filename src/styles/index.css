@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  /* main 요소명에 전체 페이지 스타일 프리셋 지정 */
+  main {
+    @apply w-full  bg-black/5 py-[10vh] px-[10vw];
+  }
+  /* Card 컴포넌는 그룹 요소명에 멤머 목록 스타일 프리셋 지정 */
+  section {
+    @apply flex flex-wrap content-start justify-between w-[1000px] m-auto;
+  }
+  /* button 요소명에 스타일 프리셋 지정 */
+  button {
+    @apply px-8 py-2 mb-0 text-sm text-white transition scale-150 rounded-full opacity-0 bg-gradient-to-br from-slate-900 to-slate-600 drop-shadow-2xl group-hover:opacity-100 group-hover:scale-100;
+  }
+}
