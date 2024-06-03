@@ -16,7 +16,7 @@ function App() {
 
       <section>
         {memberInfo.map((data, idx) => (
-          <Card data={data} key={idx} />
+          <Card data={data} key={idx} className={idx === 0 && "rounded-none"} />
         ))}
       </section>
     </main>
